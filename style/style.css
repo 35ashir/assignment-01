@@ -17,9 +17,11 @@ header {
 
 nav {
   display: flex;
-  width: 70%;
-  max-width: 1300px;
-  align-items: left;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 80%; */
+  max-width: 100%;
+  /* align-items: left; */
 }
 
 
@@ -35,9 +37,9 @@ nav {
   cursor: pointer;
 }
 
-.top-button:hover{
-    background-color: rgb(255, 119, 0);
-    color: white;
+.top-button:hover {
+  background-color: rgb(255, 119, 0);
+  color: white;
 }
 
 .menu {
@@ -45,11 +47,10 @@ nav {
   list-style: none;
   gap: 32px;
   font-size: 16px;
-  /* padding: 10px 50px 34px 50px; */
-
   line-height: 152%;
   font-weight: 500;
   align-items: right;
+  /* padding-top: 12px; */
 }
 
 .btn-1 {
@@ -63,8 +64,8 @@ nav {
   cursor: pointer;
 }
 
-.btn-1:hover{
-    background-color: rgb(255, 119, 0);
+.btn-1:hover {
+  background-color: rgb(255, 119, 0);
 }
 
 /* nav bar end */
@@ -73,7 +74,7 @@ nav {
 
 .second-container {
   background-image: url(../assets/hero-bg.png);
-  padding: 70px 120px 134px 120px;
+  padding: 70px 120px 300px 120px;
   width: 1280px;
   height: 400px;
   align-items: center;
@@ -92,10 +93,12 @@ nav {
 
 .content h3 {
   font-size: 80px;
-  line-height: 84px;
+  line-height: 90px;
   font-weight: bold;
   color: white;
   padding-bottom: 16px;
+  padding-right: 170px;
+  padding-left: 170px;
 }
 
 .content span {
@@ -105,8 +108,8 @@ nav {
 .content p {
   font-size: 20px;
   line-height: 24px;
-  padding-left: 320px;
-  padding-right: 320px;
+  padding-left: 355px;
+  padding-right: 355px;
   padding-bottom: 32px;
   color: white;
 }
@@ -124,8 +127,8 @@ nav {
   cursor: pointer;
 }
 
-.btn-2:hover{
-    background-color: rgb(255, 119, 0);
+.btn-2:hover {
+  background-color: rgb(255, 119, 0);
 }
 
 .btn-3 {
@@ -140,8 +143,8 @@ nav {
   cursor: pointer;
 }
 
-.btn-3:hover{
-    background-color: rgb(255, 119, 0);
+.btn-3:hover {
+  background-color: rgb(255, 119, 0);
 }
 
 /* second part end */
@@ -149,7 +152,7 @@ nav {
 /* thrid part start */
 
 .thrid-section h3 {
-  font-size: 30px;
+  font-size: 48px;
   padding-top: 50px;
   text-align: center;
   padding-bottom: 16px;
@@ -167,8 +170,8 @@ nav {
   display: flex;
   text-align: center;
   justify-content: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
   gap: 20px;
 }
 
@@ -181,10 +184,11 @@ nav {
 }
 
 .card-1 img {
-  background-color: red;
+  background-color: #f95555;
   border-radius: 100px;
   padding: 14.04px 13.96px 14.09px;
   text-align: center;
+  /* margin-top: 20px; */
 }
 
 .card-1 h3 {
@@ -207,7 +211,7 @@ nav {
 }
 
 .card-2 img {
-  background-color: red;
+  background-color: #f95555;
   border-radius: 100px;
   padding: 14.04px 13.96px 14.09px;
 }
@@ -232,7 +236,7 @@ nav {
 }
 
 .card-3 img {
-  background-color: red;
+  background-color: #f95555;
   border-radius: 100px;
   padding: 14.04px 13.96px 14.09px;
 }
@@ -257,7 +261,7 @@ nav {
 }
 
 .card-4 img {
-  background-color: red;
+  background-color: #f95555;
   border-radius: 100px;
   padding: 14.04px 13.96px 14.09px;
 }
@@ -296,7 +300,8 @@ nav {
 }
 
 .left-text {
-  padding-left: 300px;
+  padding-left: 150px;
+  padding-top: 102px;
 }
 
 .left-text h2 {
@@ -318,6 +323,7 @@ nav {
   font-size: 16px;
   line-height: 20px;
   color: #001931;
+  padding-right: 100px;
 }
 
 .list i {
@@ -333,7 +339,7 @@ nav {
 }
 
 .fifth-container {
-  background-color: #627382;
+  background-color: #f6f4ec;
   padding: 80px 40px 80px 40px;
   border-radius: 12px;
   text-align: center;
@@ -362,8 +368,8 @@ nav {
   cursor: pointer;
 }
 
-.btn-4:hover{
-    background-color: rgb(255, 119, 0);
+.btn-4:hover {
+  background-color: rgb(255, 119, 0);
 }
 
 .btn-4 img {
@@ -386,12 +392,14 @@ footer {
   display: flex;
   padding: 120px 120px 30px 80px;
   border-bottom: 2px solid white;
+  width: 1200px;
 }
 
 .social {
   color: white;
   gap: 20px;
 }
+
 
 .social h3 {
   padding-bottom: 12px;
@@ -401,7 +409,12 @@ footer {
   text-align: center;
   background-color: #001931;
   color: white;
-  border: 1px solid #627382;
+  /* border: 1px solid #627382; */
   padding-bottom: 30px;
   padding-top: 30px;
+}
+
+.copy{
+    margin-top: 2px solid white;
+    width: 10px;
 }
