@@ -363,3 +363,32 @@ nav{
 .p-3{
     padding-top: 16px;
 }
+
+/* fifth part end */
+
+/* footer section start */
+
+footer{
+    background-color: #001931;
+}
+
+.footer-section{
+    display: flex;
+    padding: 120px 120px 30px 80px;
+    border-bottom: 2px solid white;
+}
+
+.social{
+    color: white;
+    gap: 20px;
+}
+
+.social h3{
+    padding-bottom: 12px;
+}
+
+
+.copyright{
+    text-align: center;
+    background-color: #001931;
+}
