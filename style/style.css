@@ -156,9 +156,8 @@ nav{
 
 .card-1{
     padding: 10px 10px 10px 10px;
-    border: 2px solid whitesmoke;
     border-radius: 8px;
-    background-color: rgb(227, 201, 169);
+    box-shadow: 0px 0px 8px #000000;
 }
 
 .card-1 img{
@@ -184,9 +183,8 @@ nav{
 
 .card-2{
     padding: 10px 10px 10px 10px;
-    border: 2px solid whitesmoke;
     border-radius: 8px;
-    background-color: rgb(227, 201, 169);
+    box-shadow: 0px 0px 8px #000000;
 }
 
 .card-2 img{
@@ -210,9 +208,8 @@ nav{
 
 .card-3{
     padding: 10px 10px 10px 10px;
-    border: 2px solid whitesmoke;
     border-radius: 8px;
-    background-color: rgb(227, 201, 169);
+    box-shadow: 0px 0px 8px #000000;
 }
 
 .card-3 img{
@@ -236,9 +233,8 @@ nav{
 
 .card-4{
     padding: 10px 10px 10px 10px;
-    border: 2px solid whitesmoke;
     border-radius: 8px;
-    background-color: rgb(227, 201, 169);
+    box-shadow: 0px 0px 8px #000000;
 }
 
 
@@ -258,3 +254,112 @@ nav{
 }
 
 /* card 4 end */
+
+/* forth part start */
+
+.forth-container{
+    padding: 120px 120px 120px 120px;
+}
+
+.forth-content{
+    display: flex;
+}
+
+.forth-content img{
+    width: 500px;
+    height: 500px;
+}
+
+.p-1{
+    font-size: 16px;
+    line-height: 20px;
+    color: #30B868;
+    padding-bottom: 16px;
+}
+
+.left-text{
+    padding-left: 300px;
+}
+
+
+.left-text h2{
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+    /* padding-right: 400px; */
+}
+
+.p-2{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    /* padding-right: 450px; */
+    padding-bottom: 16px;
+}
+
+
+.list li::before{
+    content: url(/assets/CheckCircle.png);
+    position: absolute;
+    align-items: center;
+    justify-content: flex-start;
+} 
+
+.list{
+    list-style: none;
+    padding-left: 50px;
+}
+
+.list li{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+/* fifith part start */
+
+.fifth-section{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+}
+
+
+.fifth-container{
+    background-color: #627382;
+    padding: 80px 40px 80px 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.fifth-content h2{
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+
+.fifth-content p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #30B868;
+    padding-bottom: 16px;
+}
+
+.btn-4{
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: #30B868;
+    font-size: 16px;
+    color: white;
+}
+
+.btn-4 img{
+    color: white;
+}
+
+.p-3{
+    padding-top: 16px;
+}
