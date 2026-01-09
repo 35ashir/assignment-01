@@ -92,7 +92,7 @@ nav {
 }
 
 .content h3 {
-  font-size: 80px;
+  font-size: 75px;
   line-height: 90px;
   font-weight: bold;
   color: white;
@@ -106,10 +106,10 @@ nav {
 }
 
 .content p {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 24px;
-  padding-left: 355px;
-  padding-right: 355px;
+  padding-left: 260px;
+  padding-right: 260px;
   padding-bottom: 32px;
   color: white;
 }
